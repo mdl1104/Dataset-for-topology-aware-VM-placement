@@ -10,13 +10,16 @@ It supports reproducible experiments for evaluating algorithms that consider the
 The dataset contains three main components:
 
 1. **Datacenter Topology**
+   - topology_provider.xls
    - Hierarchical structure including racks and servers.
 
 2. **Server Resource Information**
+   - PM_res.xlsx
    - Available CPU cores and memory capacity for each server.
    - Every sever is set as double-NUMA type.
 
-3. **Five VM Request Sequences Information**
+5. **Five VM Request Sequences Information**
+   - VM_data_C1, VM_data_C2, VM_data_C3, VM_data_C4, VM_data_C5
    - Each record includes:
      - Resource requirements (CPU, memory)
      - NUMA configuration
