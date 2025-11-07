@@ -1,7 +1,6 @@
 # Dataset for Topology-Aware VM Placement
 
-This repository provides the dataset used for research on **topology-aware virtual machine (VM) placement** in cloud data centers.  
-It supports reproducible experiments for evaluating algorithms that consider the NUMA structure and topology-related constraints, including collocation, anti-collocation and fault-domain constraints.
+This repository provides the dataset used for research on **topology-aware virtual machine (VM) placement** in cloud data centers. Note that the dataset is obtained based on the practice production information from Huawei Cloud. It supports reproducible experiments for evaluating algorithms that consider the NUMA structure and topology-related constraints, including collocation, anti-collocation and fault-domain constraints.
 
 ---
 
@@ -24,3 +23,6 @@ The dataset contains three main components:
      - Resource requirements (CPU, memory)
      - NUMA configuration
      - Type label (e.g., nan, collocation, anti-collocation or fault-domain)
+    
+## 📝 Citation Requirement
+**Please provide proper citation when using or referencing this dataset in your work.**
